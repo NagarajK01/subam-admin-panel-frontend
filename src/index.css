@@ -1,0 +1,208 @@
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+
+.content-wrapper {
+  background: #f2edf3;
+  padding: 20px 25px;
+}
+
+.card .card-body {
+  padding: 20px;
+}
+
+.page-header {
+  margin-bottom: 15px;
+}
+
+.list-card {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 20px;
+}
+
+.list-card .card-title {
+  margin: 0px;
+}
+
+.table .template-demo button {
+  margin-right: 0px !important;
+  margin-top: 0px !important;
+  margin-right: 5px !important;
+}
+
+.login-page .auth form .auth-form-btn {
+  height: 40px;
+  line-height: 0.7;
+  width: 100%;
+}
+
+.login-page .brand-logo {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.form-label {
+  color: black;
+  font-weight: 600;
+  font-size: 13px;
+}
+
+.form-required {
+  color: red;
+  margin-left: 0.25rem;
+  font-weight: 600;
+  font-size: 13px;
+}
+
+.form-group {
+  margin-bottom: 1rem !important;
+}
+
+.login-page .auth-link {
+  cursor: pointer;
+}
+
+.form-control {
+  padding: 10px 10px 10px 12px;
+}
+
+.error-page h1 {
+  font-size: 10rem;
+}
+
+.bg-primary {
+  background: #F2EDF3 !important;
+}
+
+.error-page a {
+  text-decoration: none;
+}
+
+.error-page .not-found {
+  color: #9C9FA6;
+}
+
+.required-message {
+  width: 100%;
+  margin-top: 0.25rem;
+  font-size: 80%;
+  color: #dc3545;
+}
+
+.auth form .form-group .form-control {
+  color: #363636;
+}
+
+.rdg {
+  background-color: green;
+}
+
+.rdg-header-row .rdg-cell {
+  background-color: #F2EDF3;
+  color: #A25CFF;
+}
+
+.rdg-header-cell {
+  display: flex;
+  flex: 1;
+}
+
+.rdg-row {
+  background: #ccc;
+  color: #000;
+}
+
+
+.datatable thead tr th {
+  height: 40px;
+  border: 1px solid #ebedf2;
+}
+
+.datatable tbody tr td {
+  height: 60px;
+  vertical-align: middle !important;
+}
+
+.datatable thead tr td {
+  border: 1px solid #ebedf2;
+}
+
+.text-align-center {
+  text-align: center;
+}
+
+.datatable tbody tr td p {
+  margin: 0px;
+}
+
+.datatable tbody tr .template-demo {
+  padding: 0px 10px;
+  display: flex;
+  flex-wrap: nowrap;
+  justify-content: center;
+}
+
+
+.datatable tbody tr td .badge {
+  cursor: pointer;
+}
+
+.datatable tbody tr .template-demo .btn.btn-icon {
+  width: 30px;
+  height: 30px;
+  padding: 0;
+  margin: 0px 8px;
+}
+
+.datatable-search .datatable-input {
+  border: 1px solid #767676;
+}
+
+.table .table-no-content {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 150px;
+}
+
+.datatable-wrapper .datatable-top {
+  padding: 0px 0px 15px 0px;
+}
+
+.datatable-wrapper .datatable-bottom {
+  padding: 10px 0px 0px 0px;
+}
+
+.main-panel {
+  position: relative;
+}
+
+.spinner-overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(255, 255, 255, 0.5);
+  z-index: 9999;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.spinner-container {
+  position: relative;
+}
